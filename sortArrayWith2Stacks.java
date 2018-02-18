@@ -27,9 +27,9 @@ public class sortArrayWith2Stacks {
         stack.offerLast(2);
         stack.offerLast(5);
         stack.offerLast(2);
-//        stack.offerLast(1);
-//        stack.offerLast(9);
-//        stack.offerLast(7);
+        stack.offerLast(1);
+        stack.offerLast(9);
+        stack.offerLast(7);
         Deque<Integer> sorted = solution.solve(stack);
         while (!sorted.isEmpty()) {
             System.out.print(sorted.pollLast() + " ");
