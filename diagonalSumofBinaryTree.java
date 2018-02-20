@@ -4,6 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class diagonalSumofBinaryTree {
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int val) {
+            this.val = val;
+        }
+    }
     public int[] solve(TreeNode root) {
         Map<Integer, Integer> record = new HashMap<>();
         int[] min = new int[1];
