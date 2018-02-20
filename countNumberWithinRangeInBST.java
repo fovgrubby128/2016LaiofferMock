@@ -26,7 +26,6 @@ public class countNumberWithinRangeInBST {
         root.right.right = new TreeNode(17);
         root.right.left.left = new TreeNode(11);
         root.right.left.right = new TreeNode(14);
-
         System.out.println(solution.solve(root, 17, 19));
     }
 }
